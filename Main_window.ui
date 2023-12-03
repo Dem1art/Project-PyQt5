@@ -113,11 +113,11 @@ background-color: rgb(217, 217, 217);</string>
      <string>+</string>
     </property>
    </widget>
-   <widget class="QListView" name="list_of_notes">
+   <widget class="QListView" name="listView">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>51</y>
       <width>281</width>
       <height>481</height>
      </rect>
