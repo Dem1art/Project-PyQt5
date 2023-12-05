@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>File_form</class>
- <widget class="QWidget" name="File_form">
+ <class>Form_editorial</class>
+ <widget class="QWidget" name="Form_editorial">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -22,51 +22,18 @@
     <height>613</height>
    </size>
   </property>
+  <property name="baseSize">
+   <size>
+    <width>301</width>
+    <height>613</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>Добавить</string>
+   <string>Редактировать</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
-  <widget class="QPushButton" name="add_button2">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>540</y>
-     <width>61</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>61</width>
-     <height>61</height>
-    </size>
-   </property>
-   <property name="maximumSize">
-    <size>
-     <width>61</width>
-     <height>61</height>
-    </size>
-   </property>
-   <property name="baseSize">
-    <size>
-     <width>61</width>
-     <height>61</height>
-    </size>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>24</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(217, 217, 217);</string>
-   </property>
-   <property name="text">
-    <string>+</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -78,6 +45,22 @@
    </property>
    <property name="text">
     <string>Текст</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(217, 217, 217);</string>
+   </property>
+   <property name="text">
+    <string>Удалить заметку</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -96,9 +79,9 @@
   <widget class="QLineEdit" name="file_name">
    <property name="geometry">
     <rect>
-     <x>12</x>
+     <x>10</x>
      <y>40</y>
-     <width>111</width>
+     <width>113</width>
      <height>20</height>
     </rect>
    </property>
@@ -113,20 +96,33 @@
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="type_button">
+  <widget class="QPushButton" name="confirming_button">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>40</y>
-     <width>91</width>
-     <height>23</height>
+     <x>180</x>
+     <y>540</y>
+     <width>101</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: rgb(217, 217, 217);</string>
    </property>
    <property name="text">
-    <string>Тип заметки</string>
+    <string>Подтвердить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Создано:</string>
    </property>
   </widget>
  </widget>
