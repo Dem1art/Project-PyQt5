@@ -25,8 +25,12 @@
   <property name="windowTitle">
    <string>Добавить</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Pictures/png-transparent-computer-icons-post-it-note-notes-icon-rectangle-orange-notes.png</normaloff>../../../Pictures/png-transparent-computer-icons-post-it-note-notes-icon-rectangle-orange-notes.png</iconset>
+  </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(0, 85, 127);</string>
   </property>
   <widget class="QPushButton" name="add_button2">
    <property name="geometry">
@@ -76,6 +80,9 @@
      <height>13</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
    <property name="text">
     <string>Текст</string>
    </property>
@@ -88,6 +95,9 @@
      <width>71</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Имя заметки</string>
@@ -102,6 +112,9 @@
      <height>20</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(216, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
@@ -111,6 +124,9 @@
      <width>271</width>
      <height>431</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(216, 255, 255);</string>
    </property>
   </widget>
   <widget class="QPushButton" name="type_button">
